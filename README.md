@@ -3,6 +3,8 @@ Stochastic Epimutation Finder
 
 Required packages:
 
+"plyr","zoo","dplyr","foreach","R.utils","parallel","doParallel","gtools","openxlsx","stringi","reshape2","ChAMP","checkr"
+
 Open the sampleCall.R file and point the approrpiate folders:
 
 resultFolderValue <- will contain the resultmof analysis
