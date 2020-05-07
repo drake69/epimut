@@ -1,4 +1,4 @@
-# source('~/smarties/microarray/epigenetics/epimutation_analysis/epimut.R')
+# source('epimut.R')
 
 # GEOgse <- "GSE104812"
 # resultFolderValue <- "~/experiments/test/results"
@@ -13,11 +13,11 @@
 #   popControlSelector = "Case_Ctrl == 1 | Case_Ctrl == 0" 
 # )
 
-source('~/smarties/microarray/epigenetics/epimutation_analysis/supportFunctionsEpimutation.R')
-source('~/smarties/microarray/epigenetics/epimutation_analysis/analyzePopulation.R')
-source('~/smarties/microarray/epigenetics/epimutation_analysis/epimutationNormalize.R')
-source('~/smarties/microarray/epigenetics/epimutation_analysis/epimut.R')
-source('~/smarties/microarray/commonR.R')
+source('supportFunctionsEpimutation.R')
+source('analyzePopulation.R')
+source('epimutationNormalize.R')
+source('epimut.R')
+source('commonR.R')
 
 # resultFolderValue <- "~/experiments/IPOT/results"
 # sampleFolderValue <- "~/experiments/IPOT/samples"
@@ -54,7 +54,7 @@ epimut(
 # )
 
 
-# source('~/smarties/microarray/commonR.R')
+# source('commonR.R')
 # syncSampleSheetFromFolder(renameFileStartingWithNumber = FALSE,
 #                           sampleSheet = paste(sampleFolderValue, "/", "METHYLATION_giu_samples_NOV_2017.csv", sep = ""),
 #                           workingFolder = sampleFolderValue,
@@ -64,7 +64,7 @@ epimut(
 # buildSampleSheetFromFolder(workingFolder =  sampleFolderValue, renameFileStartingWithNumber = FALSE)
 
 
-# source('~/smarties/microarray/commonR.R')
+# source('commonR.R')
 # linkSampleFilesToExperimentFolder(
 #     sampleFolder = "/Volumes/Data/idat/",
 #     experimentFolder = "~/experiments/IPOT/samples",
@@ -72,7 +72,7 @@ epimut(
 # )
 
 
-# source('~/smarties/microarray/commonR.R')
+# source('commonR.R')
 # createSampleFilesToExperimentFolder(
 #     sampleFolder = "/Volumes/Data/idat/",
 #     experimentFolder = "~/experiments/IPOT/samples",

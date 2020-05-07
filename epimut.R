@@ -1,9 +1,6 @@
-source(
-  '~/smarties/microarray/epigenetics/epimutation_analysis/supportFunctionsEpimutation.R'
-)
-source('~/smarties/microarray/epigenetics/epimutation_analysis/analyzePopulation.R')
-source(
-  '~/smarties/microarray/epigenetics/epimutation_analysis/epimutationNormalize.R'
+source('supportFunctionsEpimutation.R')
+source('analyzePopulation.R')
+source('epimutationNormalize.R'
 )
 
 ### EPIMUT ############################################################################################################################################################################

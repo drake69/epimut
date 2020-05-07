@@ -1,7 +1,8 @@
 ### analizePopulation ############################################################################################################################################################################
 
-source("~/smarties/microarray/epigenetics/epimutation_analysis/supportFunctionsEpimutation.R")
-source('~/smarties/common/analyzeSingleSample.R')
+
+source("supportFunctionsEpimutation.R")
+source('analyzeSingleSample.R')
 
 analizePopulation <- function(populationMatrix, 
                               slidingWindowSize, 
