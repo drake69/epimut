@@ -12,3 +12,6 @@ sampleFolderValue <- where are the samples
 logFolderValue <- where log all the actions done by the function
 
 Assign the parameter and run the function.
+###################################################################################################
+This function is replaced by the R package semseeker https://github.com/drake69/semseeker
+###################################################################################################
